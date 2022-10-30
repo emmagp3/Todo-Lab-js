@@ -1,5 +1,5 @@
 export class Todo {
-  constructor({ tarea }) {
+  constructor(tarea) {
     this.tarea = tarea;
     this.id = new Date().getTime();
     this.completado = false;
